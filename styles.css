@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.transparent-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+}
+
+.transparent-button:hover {
+  font-weight: bold;
+  border: 3px solid white;
+}
+.box {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./shanghai-city-5083x3389-16563.jpg);
+  min-width: 50rem;
+  min-height: 30rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  padding-top: 5rem;
+  object-fit: cover;
+}
+
+.white-text {
+  color: white;
+}
+
+.title-size {
+  font-size: 30px;
+  letter-spacing: 5px;
+  word-spacing: 7px;
+}
+
+.text {
+  text-align: center;
+}
