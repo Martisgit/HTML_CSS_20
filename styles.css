@@ -46,3 +46,42 @@
 .text {
   text-align: center;
 }
+
+.main-box {
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: flex;
+}
+
+.bg-image {
+  padding-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-image: url(./shanghai-city-5083x3389-16563.jpg);
+  min-width: 50rem;
+  min-height: 30rem;
+}
+
+.text-color {
+  color: black;
+}
+
+.child {
+  padding-top: 3rem;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 1%;
+}
+
+h1 {
+  font-size: 50px;
+}
